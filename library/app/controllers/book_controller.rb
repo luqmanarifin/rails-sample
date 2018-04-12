@@ -1,4 +1,6 @@
-class BooksController < ApplicationController
+class BookController < ApplicationController
+
+   layout 'standard'
 
    def list
       @books = Book.all
